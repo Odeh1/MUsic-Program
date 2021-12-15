@@ -1,12 +1,18 @@
-//Global Var
+//Global Variables
 
 void setup() {
-fullScreen(); 
-  pop();  
+  fullScreen();  //fullScreen(), displayWidth, displayHeight
+  population();
+  textSetup();
 }//End setup()
 
-void draw() {}//End draw()
+void draw() {
+  powerButtonDraw();
+}//End draw()
 
-void keyPressed() {}//End keyPressed()
+void keyPressed() {
+}//End keyPressed()
 
-void mousePressed() {}//End mousepressed()g
+void mousePressed() {
+  powerButtonMousePressed();
+}//End mousepressed()

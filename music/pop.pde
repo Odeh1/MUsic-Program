@@ -1,1 +1,3 @@
-void pop() {}//End pop
+void population() {
+  musicPlayerButtons();
+}//End population
